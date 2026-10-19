@@ -73,3 +73,7 @@ Version exportée : 18 octobre 2026. Source : 190478685e27d70c8266e2c9cf75f5cc3f
 
 - L’import réussi d’une sauvegarde réinitialise le portrait, la référence de style et le cadrage. Une importation annulée ou invalide conserve les images courantes.
 - Les postures qui utilisent du matériel ou un animal sont proposées selon les éléments déclarés. Une ancienne posture incompatible est remplacée par une posture naturelle dans la demande d’illustration.
+
+## Habillage illustré des formulaires
+
+Les dessins des deux planches du projet accompagnent désormais les rubriques, fondus dans le papier et adaptés à leur thème. Lors de la mise à jour, inclure `illustrations.js` et le dossier `assets/formulaire/` avec les fichiers habituels. Les illustrations du PDF restent inchangées.
