@@ -68,3 +68,8 @@ Documentation GitHub utilisée pour ces étapes :
 - https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository
 
 Version exportée : 18 octobre 2026. Source : 190478685e27d70c8266e2c9cf75f5cc3f9e5eed.
+
+## Correctifs du 19 octobre 2026
+
+- L’import réussi d’une sauvegarde réinitialise le portrait, la référence de style et le cadrage. Une importation annulée ou invalide conserve les images courantes.
+- Les postures qui utilisent du matériel ou un animal sont proposées selon les éléments déclarés. Une ancienne posture incompatible est remplacée par une posture naturelle dans la demande d’illustration.
