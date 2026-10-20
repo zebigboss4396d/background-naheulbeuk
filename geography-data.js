@@ -1576,3 +1576,546 @@ const PLACES=[
     "depth": "Mentionné"
   }
 ];
+
+// Complément : rapport Environs de la Terre de Fangh, pages 3 à 23.
+const ENVIRONS_GEOGRAPHY=[
+  [
+    "Confins du Givre",
+    3,
+    "Contrée froide au-delà des montagnes du Nord.",
+    [
+      [
+        "Zuaklividouk",
+        "Zone géographique"
+      ],
+      [
+        "Lac Vrogs",
+        "Zone géographique"
+      ],
+      [
+        "Basdaarg",
+        "Ville ou bourg"
+      ],
+      [
+        "M’nrulklosg",
+        "Ville ou bourg"
+      ],
+      [
+        "Oldavh",
+        "Forteresse"
+      ],
+      [
+        "Slökh",
+        "Forteresse"
+      ],
+      [
+        "Mont des Ailés",
+        "Zone géographique"
+      ],
+      [
+        "Yviir",
+        "Ancien site"
+      ],
+      [
+        "Froid Marais",
+        "Zone géographique"
+      ]
+    ]
+  ],
+  [
+    "Fjords de Raalnig",
+    4,
+    "Îles et fjords du nord-ouest, fréquentés par des populations maritimes.",
+    [
+      [
+        "Lomph",
+        "Ville ou bourg"
+      ]
+    ]
+  ],
+  [
+    "Srölnagud",
+    5,
+    "Pays côtier rocheux où vivent notamment des nains et des demi-géants.",
+    [
+      [
+        "Shumpz",
+        "Forteresse"
+      ],
+      [
+        "Kasgeklö",
+        "Ville ou bourg"
+      ]
+    ]
+  ],
+  [
+    "Pays de Frugklost",
+    6,
+    "Pays côtier humain aux villes et villages fortifiés.",
+    [
+      [
+        "Nuglumlaz",
+        "Ville ou bourg"
+      ],
+      [
+        "Plaine Morose",
+        "Zone géographique"
+      ],
+      [
+        "Plaine aux Aurochs",
+        "Zone géographique"
+      ],
+      [
+        "Lac Dantro",
+        "Zone géographique"
+      ],
+      [
+        "Greind’vasse",
+        "Zone géographique"
+      ]
+    ]
+  ],
+  [
+    "Marais d’Efaizh",
+    7,
+    "Région marécageuse bordée de communautés humaines et reptiliennes.",
+    [
+      [
+        "Vurrst",
+        "Ancien site"
+      ],
+      [
+        "Zouf",
+        "Forteresse"
+      ],
+      [
+        "Palkizar",
+        "Ville ou bourg"
+      ],
+      [
+        "Port Shuibizar",
+        "Ville ou bourg"
+      ],
+      [
+        "Nanlduzar",
+        "Ville ou bourg"
+      ],
+      [
+        "Jungle de Gnaal",
+        "Zone géographique"
+      ]
+    ]
+  ],
+  [
+    "Archipel Papoutouh",
+    8,
+    "Archipel où sont installés les Mages-Pirates.",
+    [
+      [
+        "Zarul",
+        "Ville ou bourg"
+      ],
+      [
+        "Taat",
+        "Ville ou bourg"
+      ],
+      [
+        "Milzouzar",
+        "Ville ou bourg"
+      ]
+    ]
+  ],
+  [
+    "Fanalzar et le Moogh’ul",
+    9,
+    "Île habitée et région volcanique du sud-ouest.",
+    [
+      [
+        "Fanalzar",
+        "Île ou archipel"
+      ],
+      [
+        "Napâtur",
+        "Ville ou bourg"
+      ],
+      [
+        "Oïnk",
+        "Ancien site"
+      ],
+      [
+        "Moogh’ul",
+        "Zone géographique"
+      ],
+      [
+        "Crique des Morues",
+        "Zone géographique"
+      ]
+    ]
+  ],
+  [
+    "Mer Sidralnée",
+    10,
+    "Mer parsemée d’îles, de concessions minières et de routes maritimes.",
+    [
+      [
+        "Île de Cúyenor",
+        "Île ou archipel"
+      ],
+      [
+        "Archipel des Écailleuses",
+        "Île ou archipel"
+      ],
+      [
+        "Îles Boulfiduf",
+        "Île ou archipel"
+      ]
+    ]
+  ],
+  [
+    "Jungle d’Uzgueg et forêt maudite",
+    11,
+    "Vaste région forestière de l’ouest, aux nombreuses ruines.",
+    [
+      [
+        "Jungle d’Uzgueg",
+        "Zone géographique"
+      ],
+      [
+        "Forêt maudite de l’Ouest",
+        "Zone géographique"
+      ],
+      [
+        "Marais d’Entrugh",
+        "Zone géographique"
+      ],
+      [
+        "Kzsuuigh",
+        "Ancien site"
+      ],
+      [
+        "Lac Stipal",
+        "Zone géographique"
+      ],
+      [
+        "Broukovili",
+        "Ancien site"
+      ],
+      [
+        "Biliniel",
+        "Ville ou bourg"
+      ]
+    ]
+  ],
+  [
+    "Syldérie",
+    12,
+    "Plaines froides parcourues par des peuples nomades.",
+    [
+      [
+        "Dents de Vermoghs",
+        "Zone géographique"
+      ],
+      [
+        "Mont Uhaknug",
+        "Zone géographique"
+      ],
+      [
+        "Murgliis",
+        "Zone géographique"
+      ],
+      [
+        "Mer d’Uflsoord",
+        "Zone géographique"
+      ]
+    ]
+  ],
+  [
+    "Plaine gelée du Krönstol",
+    13,
+    "Contrées gelées à l’est de la Syldérie.",
+    [
+      [
+        "Grottes de Klusg",
+        "Zone géographique"
+      ],
+      [
+        "Aiguilles Draköls",
+        "Zone géographique"
+      ],
+      [
+        "Orgvarz",
+        "Ancien site"
+      ],
+      [
+        "Glacier Arnn",
+        "Zone géographique"
+      ],
+      [
+        "Sraa’dal",
+        "Forteresse"
+      ]
+    ]
+  ],
+  [
+    "Galzanie",
+    14,
+    "Empire de l’est, voisin de Fernol.",
+    [
+      [
+        "Monts Vrogz",
+        "Zone géographique"
+      ],
+      [
+        "Nam-Roduk",
+        "Forteresse"
+      ],
+      [
+        "Plaine de Sakourvit",
+        "Zone géographique"
+      ],
+      [
+        "Sadortar",
+        "Ville ou bourg"
+      ],
+      [
+        "Kazelver",
+        "Ville ou bourg"
+      ],
+      [
+        "Val Cornu",
+        "Zone géographique"
+      ]
+    ]
+  ],
+  [
+    "Caladie",
+    15,
+    "Pays indépendant voisin de Fangh, dont la capitale est Caladorg.",
+    [
+      [
+        "Île Sulkak",
+        "Île ou archipel"
+      ],
+      [
+        "Côte Féroce",
+        "Zone géographique"
+      ]
+    ]
+  ],
+  [
+    "Esturlie",
+    16,
+    "Pays de l’est, entre Galzanie, Dandiskar et la mer.",
+    [
+      [
+        "Salog",
+        "Ancien site"
+      ],
+      [
+        "Estur",
+        "Ville ou bourg"
+      ],
+      [
+        "Marsturia",
+        "Ville ou bourg"
+      ]
+    ]
+  ],
+  [
+    "Dandiskar",
+    16,
+    "Pays de plaines, de collines et de cités donnant sur la mer.",
+    [
+      [
+        "Port Fluti",
+        "Ville ou bourg"
+      ],
+      [
+        "Dandiss",
+        "Ville ou bourg"
+      ],
+      [
+        "Mont Choklah",
+        "Zone géographique"
+      ]
+    ]
+  ],
+  [
+    "Cimes de Kuylinia",
+    17,
+    "Jungle aux arbres immenses, habitée notamment par les Kuylisars.",
+    [
+      [
+        "Golfe de Bardalken",
+        "Zone géographique"
+      ],
+      [
+        "Îles Sans-Peur",
+        "Île ou archipel"
+      ],
+      [
+        "Sankolaad",
+        "Ancien site"
+      ]
+    ]
+  ],
+  [
+    "Pays de Nugh",
+    18,
+    "Contrée du Grand Est, aux traditions artisanales et martiales propres.",
+    [
+      [
+        "Tatanoki",
+        "Ville ou bourg"
+      ]
+    ]
+  ],
+  [
+    "Archipel Agatto et îles pleureuses",
+    19,
+    "Archipels humides au sud-est, dont Agatto est lié au pays de Nugh.",
+    [
+      [
+        "Dazuki",
+        "Ville ou bourg"
+      ],
+      [
+        "Archipel Agatto",
+        "Île ou archipel"
+      ],
+      [
+        "Îles pleureuses",
+        "Île ou archipel"
+      ],
+      [
+        "Poffiz",
+        "Ancien site"
+      ]
+    ]
+  ],
+  [
+    "Côte de Sk’ka",
+    20,
+    "Côte aride ouvrant sur une vaste région désertique.",
+    [
+      [
+        "Passe de Midelus",
+        "Zone géographique"
+      ],
+      [
+        "Mer d’Alzizbar",
+        "Zone géographique"
+      ],
+      [
+        "Ng’aash",
+        "Ancien site"
+      ],
+      [
+        "Kou’ssouk",
+        "Ancien site"
+      ]
+    ]
+  ],
+  [
+    "Birmilistan",
+    21,
+    "Grande contrée du sud aux cités commerçantes.",
+    [
+      [
+        "Dunes de Sulaa",
+        "Zone géographique"
+      ],
+      [
+        "Jungle de Zoth",
+        "Zone géographique"
+      ],
+      [
+        "Falaises de Brisos",
+        "Zone géographique"
+      ],
+      [
+        "Marais Cendreux",
+        "Zone géographique"
+      ],
+      [
+        "Rivière Nundali",
+        "Zone géographique"
+      ],
+      [
+        "Baie Sanglante",
+        "Zone géographique"
+      ],
+      [
+        "Grangognar",
+        "Ville ou bourg"
+      ],
+      [
+        "Sulaazar",
+        "Ville ou bourg"
+      ],
+      [
+        "Danlbuzar",
+        "Ville ou bourg"
+      ],
+      [
+        "Birmili",
+        "Ville ou bourg"
+      ],
+      [
+        "Klapsok",
+        "Ancien site"
+      ]
+    ]
+  ],
+  [
+    "Jungles de Sungul",
+    22,
+    "Jungle méridionale et littoral aux communautés isolées.",
+    [
+      [
+        "Port-Sungul / Le Havre / Yakadash",
+        "Ville ou bourg"
+      ],
+      [
+        "Golfe de Sungul",
+        "Zone géographique"
+      ]
+    ]
+  ],
+  [
+    "Grandes îles d’Embarh",
+    23,
+    "Îles éloignées des côtes fanghiennes, décrites dans le rapport.",
+    [
+      [
+        "Île de Mong-bolo",
+        "Île ou archipel"
+      ],
+      [
+        "Kad Buluk",
+        "Forteresse"
+      ],
+      [
+        "Île Adilar",
+        "Île ou archipel"
+      ],
+      [
+        "Île Nubilar",
+        "Île ou archipel"
+      ],
+      [
+        "Natouk-Ud",
+        "Île ou archipel"
+      ]
+    ]
+  ]
+];
+for(const [region,page,description,places] of ENVIRONS_GEOGRAPHY){
+ let parent=PLACES.find(p=>p.name===region&&p.kind==='Région');
+ if(!parent){parent={id:'environs-region-'+page+'-'+PLACES.length,name:region,kind:'Région',region,scope:'outside',source:'Environs-TerredeFangh-MJ.pdf',page,description,depth:'Décrit'};PLACES.push(parent);}
+ // Conserver les identifiants existants pour les sauvegardes déjà créées.
+ if(!parent.source){parent.source='Environs-TerredeFangh-MJ.pdf';parent.page=page;parent.description=description;parent.depth='Décrit';}
+ for(const [name,kind] of places){if(PLACES.some(p=>p.name===name))continue;PLACES.push({id:'environs-lieu-'+page+'-'+PLACES.length,name,kind,region,scope:'outside',source:'Environs-TerredeFangh-MJ.pdf',page,description:(kind==='Ancien site'?'Site ancien ou ruiné':'Lieu de référence')+' cité dans la section « '+region+' » du rapport.',depth:'Mentionné'});}
+}
+
+for(const name of ['Fernol','Jungles d’Ammouka']){const p=PLACES.find(p=>p.kind==='Région'&&p.name===name);if(p&&!p.source){p.source='Environs-TerredeFangh-MJ.pdf';p.page=name==='Fernol'?15:22;p.depth='Décrit';}}

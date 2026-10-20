@@ -3,7 +3,7 @@ const STORE_PATH=(window.location?.pathname||'/').replace(/index\.html$/,'');
 const KEY='chroniques-background:'+STORE_PATH+':v6',OLDKEY='chroniques-background:'+STORE_PATH+':v5';
 const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const baseState=()=>({version:6,people:[],values:{priority:'Réparti équitablement',worldArea:'fangh'},step:0,panel:0,decor:1,pose:'En pied, légère vue de trois quarts, posture naturelle.',light:'Lumière naturelle douce.',customDecor:'',private:false,legacy:null});
+const baseState=()=>({version:6,people:[],values:{priority:'Réparti équitablement',worldArea:'fangh',geoFlowVersion:'1'},step:0,panel:0,decor:1,pose:'En pied, légère vue de trois quarts, posture naturelle.',light:'Lumière naturelle douce.',customDecor:'',private:false,legacy:null});
 let state=baseState(),portrait='',reference='',storageWarning=false;
 const fields=()=>CHAPTERS.flatMap(c=>c.panels.flatMap(p=>p.fields));
 const get=id=>state.values[id]??'';

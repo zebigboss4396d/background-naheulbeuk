@@ -1,6 +1,6 @@
 # Les Chroniques de Fangh — version GitHub Pages
 
-Version complète du générateur de background : six chapitres de choix, catalogue géographique et ses PDF sources, description physique, équipement, entourage, récapitulatif, export PDF illustré et portrait recadrable. La demande d’illustration est préparée dans le site puis envoyée manuellement dans ChatGPT.
+Version complète du générateur de background : six chapitres de choix, sélection géographique progressive et ses PDF sources, description physique, équipement, entourage, récapitulatif, export PDF illustré et portrait recadrable. La demande d’illustration est préparée dans le site puis envoyée manuellement dans ChatGPT.
 
 Aucune installation, compilation, clé API ni base de données n’est nécessaire. Les scripts, polices, illustrations et documents utilisés par le site sont inclus. L’adresse GitHub Pages peut contenir le nom du dépôt : les chemins des ressources sont relatifs.
 
@@ -28,7 +28,7 @@ La sauvegarde automatique appartient à chaque navigateur et à chaque adresse d
 
 ## Après publication
 
-- Tester les six chapitres, le catalogue des lieux et un lien de source.
+- Tester les six chapitres, les embranchements géographiques et un lien de source.
 - À la dernière étape, cliquer dans le cadre portrait, choisir une image et régler son cadrage.
 - Télécharger le PDF et vérifier le portrait ainsi que les deux illustrations décoratives.
 - Tester l’export JSON puis son import.
@@ -51,7 +51,7 @@ Dans le dépôt, **Add file → Upload files**, envoyer les fichiers modifiés e
 
 - `index.html` : point d’entrée.
 - `style.css` : présentation du site.
-- `data.js`, `geography-data.js` : choix et catalogue géographique.
+- `data.js`, `geography-data.js` : choix et références géographiques.
 - `app.js`, `geography.js`, `appearance.js`, `relationships.js`, `portrait.js` : interface et interactions.
 - `narrative.js` : modèle du récapitulatif des réponses, malgré son nom historique.
 - `pdf-export.js` : composition du PDF dans le navigateur.
@@ -77,3 +77,19 @@ Version exportée : 18 octobre 2026. Source : 190478685e27d70c8266e2c9cf75f5cc3f
 ## Habillage illustré des formulaires
 
 Les dessins des deux planches du projet accompagnent désormais les rubriques, fondus dans le papier et adaptés à leur thème. Lors de la mise à jour, inclure `illustrations.js` et le dossier `assets/formulaire/` avec les fichiers habituels. Les illustrations du PDF restent inchangées.
+
+## Origine géographique progressive — 20 octobre 2026
+
+La rubrique Les racines présente successivement : territoire, grande région, lieu, situation par rapport à ce lieu, puis précision facultative. Le catalogue séparé est supprimé. Le bouton de source reste accessible auprès du lieu choisi.
+
+Hors Fangh, cinq branches sont proposées : Fernol ; Caladie ; Jungles d’Ammouka et Sungul ; Confins du Givre ; Autres contrées. Dans Autres contrées, le joueur choisit une contrée avant d’accéder aux lieux. Le rapport `sources/Environs-TerredeFangh-MJ.pdf` complète les références, avec les pages correspondantes. Les descriptions courtes ne révèlent pas les événements de scénario.
+
+Les identifiants des lieux déjà présents sont conservés pour reprendre les anciennes sauvegardes. Au changement de territoire ou de région, les choix devenus incompatibles sont réinitialisés. Les anciennes précisions textuelles sont conservées à part dans une section repliée, sans être intégrées au nouveau background.
+
+Pour installer cette version, remplacer les fichiers de l’archive et ajouter le nouveau PDF dans le dossier `sources`. Les illustrations des formulaires et les corrections d’import/portrait restent incluses.
+
+## Cadres de vie selon les régions
+
+Dans « Autres contrées », la sélection principale propose désormais des cadres de vie correspondant à la région : caravane, hameau, quartier portuaire, campement, etc. Les lieux nommés dans les sources restent accessibles dans un volet facultatif. Pour les autres branches, ces cadres sont proposés lorsque le joueur choisit la région sans lieu précis. Un choix personnel est toujours possible. Ces descriptions sont des suggestions narratives et ne sont pas ajoutées comme localités officielles au catalogue des références.
+
+Le nouveau fichier `geography-landscapes.js` doit être envoyé avec les fichiers mis à jour. Le cadre retenu figure dans le récapitulatif et le PDF, et est conservé dans la sauvegarde JSON.
