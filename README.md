@@ -93,3 +93,17 @@ Pour installer cette version, remplacer les fichiers de l’archive et ajouter l
 Dans « Autres contrées », la sélection principale propose désormais des cadres de vie correspondant à la région : caravane, hameau, quartier portuaire, campement, etc. Les lieux nommés dans les sources restent accessibles dans un volet facultatif. Pour les autres branches, ces cadres sont proposés lorsque le joueur choisit la région sans lieu précis. Un choix personnel est toujours possible. Ces descriptions sont des suggestions narratives et ne sont pas ajoutées comme localités officielles au catalogue des références.
 
 Le nouveau fichier `geography-landscapes.js` doit être envoyé avec les fichiers mis à jour. Le cadre retenu figure dans le récapitulatif et le PDF, et est conservé dans la sauvegarde JSON.
+
+## Partie 6 — départ, portrait et fiche terminée
+
+La partie 6 se déroule maintenant en trois écrans :
+
+1. Le départ : motivation et éventuelle reprise de l’événement de l’histoire ; secrets et notes au MJ dans un volet facultatif. Un bouton permet d’aller directement à la fiche sans portrait.
+2. Le portrait (facultatif) : choisir une image existante, ou préparer une illustration avec décor, posture, lumière et référence graphique. La demande est copiée manuellement dans ChatGPT ; l’image obtenue peut ensuite être importée et cadrée.
+3. La fiche terminée : relecture, portrait, PDF récapitulatif, sauvegarde JSON et autres formats regroupés.
+
+Le bouton « Faire croire au MJ que j’ai super bien bossé » copie une seconde demande, dédiée à un récit de background en PDF illustré. Elle reprend les réponses sans inventer de faits majeurs, demande un humour léger de Naheulbeuk et des illustrations de décor fondues dans le papier, avec un fond clair sous le texte. Le contexte visuel précise le lieu et le cadre de vie retenus, notamment l’échelle des habitations de semi-hommes dans le Mooté. Le mode d’emploi et la demande complète sont consultables sur le même écran.
+
+Les secrets sont exclus de cette demande par défaut. Une option propre au récit permet de les inclure ; les notes et limites personnelles au MJ restent exclues. Ce choix est indépendant de l’option des exports PDF/texte. Les images doivent être jointes manuellement à l’IA choisie. Le site prépare les demandes ; il ne génère pas lui-même un récit ou des images. Le PDF récapitulatif du site reste disponible séparément.
+
+Le nouveau module `finale.js` doit être envoyé avec `index.html`, `data.js`, `app.js`, `portrait.js`, `illustrations.js`, `style.css` et les autres fichiers de l’archive. Les anciennes réponses sont conservées ; une ancienne sauvegarde ouverte sur « Fiche & portrait » est redirigée vers « La fiche terminée ».

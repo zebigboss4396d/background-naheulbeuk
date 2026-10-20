@@ -123,3 +123,14 @@ revisedField('objectsVisible').label='Sacs et accessoires visibles — où range
 revisedField('objectsVisible').shortLabel='Sacs et accessoires visibles';
 revisedField('objectsVisible').help='Sacs à dos, besaces, bourses, ceintures et ceinturons, bijoux, accessoires et autres objets portés visiblement. Précisez leur aspect et leur emplacement si nécessaire.';
 revisedField('animalVisible').help='Espèce, nom, apparence et comportement. Décrivez dans ce même champ son éventuel équipement : selle, bât, harnais, sacoches, collier, couverture, protections…';
+
+// Une fin de parcours en trois écrans, avec portrait facultatif.
+CHAPTERS[5].intro='Terminez votre histoire, préparez un portrait si vous le souhaitez, puis récupérez votre fiche.';
+CHAPTERS[5].panels[0].title='Le départ';
+CHAPTERS[5].panels[0].renderKind='departure';
+CHAPTERS[5].panels[0].heading='Il reste à prendre la route.';
+CHAPTERS[5].panels[0].intro='Une raison de partir. Les confidences au MJ restent facultatives.';
+CHAPTERS[5].panels.splice(1,1,
+ {title:'Le portrait · facultatif',fields:[],output:'portrait',heading:'Donner un visage à l’aventure.',intro:'Ajoutez une image existante ou préparez une demande d’illustration. Vous pouvez passer cette étape.'},
+ {title:'La fiche terminée',fields:[],output:'final',heading:'Votre histoire est prête à partir.',intro:'Relisez vos réponses, récupérez votre fiche et, si vous le souhaitez, préparez un récit illustré.'}
+);

@@ -18,7 +18,7 @@ const FORM_ART={
  departure:{sheet:'scenes',rect:[636,816,244,202]},
  quill:{sheet:'symboles',rect:[1237,529,294,148]}
 };
-const PANEL_ART=[['village','landscape'],['faces','expressions','reader'],['arms','pack'],['expressions','tastes','animals'],['mentor','family'],['departure','journey']];
+const PANEL_ART=[['village','landscape'],['faces','expressions','reader'],['arms','pack'],['expressions','tastes','animals'],['mentor','family'],['departure','faces','quill']];
 const CHAPTER_SIGNATURE=['quill','expressions','coins','tastes','family','pack'];
 function formArtwork(key,extraClass=''){
  const art=FORM_ART[key];if(!art)return '';
