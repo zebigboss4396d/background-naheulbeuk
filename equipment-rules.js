@@ -1,4 +1,5 @@
 import {mooteMagicProfile} from './moote-magic.js';
+import {priceEquipment} from './equipment-pricing.js';
 import {startingPossessions,instrumentGifts,personalRelic} from './starting-equipment.js';
 import {equipmentEligibility} from './equipment-eligibility.js';
 import {MAGIC_DISCIPLINES,PRIEST_DEITIES,PALADIN_DEITIES} from './affiliations.js';
@@ -28,7 +29,7 @@ export function startingManual(profile){
 }
 export function catalogForProfile(items,profile){
  const tabs=equipmentTabs(profile),limit=equipmentPriceLimit(profile),moote=isMooteProfile(profile);
- const allowed=items.filter(item=>{
+ const allowed=items.map(item=>priceEquipment(item,profile)).filter(item=>{
   if(item.starterAvailable===false||item.pricePc>limit||!equipmentEligibility(item,profile).allowed)return false;
   if(item.section==='Livres ordinaires et connaissances')return false;
   if(['Reliques et objets de culte','Bagues, médaillons et accessoires divins'].includes(item.section))return false;
@@ -44,7 +45,7 @@ export function catalogForProfile(items,profile){
  const manual=startingManual(profile);
  if(manual)allowed.push(manual);
  if(isMageProfile(profile))allowed.push({id:'manuel-depart-mage-magie-generaliste',name:'Grimoire des Ordres Néfastes — Magie généraliste — niveau 1',pricePc:0,currency:'PO',kind:'book',category:'Mages et Sorciers',section:'Livres de sorcellerie',catalog:'standard',source:'Manuel de départ gratuit',notes:'Magie accessible à tous les mages, quelle que soit leur spécialité. Grimoire offert à la création, en complément du grimoire de spécialité, sans dépense du budget d’équipement.',unique:true});
- return allowed.map(item=>({...item,eligibilityNote:equipmentEligibility(item,profile).reason,bonusInactive:Boolean(equipmentEligibility(item,profile).reason?.includes('inactifs'))}));
+ return allowed.map(item=>priceEquipment(item,profile)).filter(item=>item.startingGift||item.pricePc<=limit).map(item=>({...item,eligibilityNote:equipmentEligibility(item,profile).reason,bonusInactive:Boolean(equipmentEligibility(item,profile).reason?.includes('inactifs'))}));
 }
 
 export function weaponForms(item){
