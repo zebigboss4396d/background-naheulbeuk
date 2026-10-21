@@ -1,0 +1,882 @@
+{
+  "Barbare": {
+    "born": [
+      "BOURRE-PIF",
+      "CHERCHER DES NOISES",
+      "ÉCORCHAGE DES BARBARES",
+      "SENTIR DES PIEDS",
+      "TÊTE VIDE"
+    ],
+    "choices": [
+      "Ambidextrie",
+      "Nager",
+      "Armes de bourrin",
+      "Pister",
+      "Chevaucher",
+      "Tannerie",
+      "Connaissances des steppes",
+      "Tirer correctement",
+      "Escalader",
+      "Truc de mauviette",
+      "Intimider"
+    ]
+  },
+  "Nain": {
+    "born": [
+      "APPEL DU TONNEAU",
+      "VILAIN JARGON GOBELIN",
+      "CAMPING SOUTERRAIN",
+      "INSTINCT DU TRÉSOR",
+      "LECTURE DU NAINSCRIT",
+      "PÉNIBLE",
+      "RADIN"
+    ],
+    "choices": [
+      "Appel des renforts",
+      "Fariboles",
+      "Arnaques et carambouille",
+      "Forgeron",
+      "Bourre-pif",
+      "Méfiance",
+      "Bricolo du dimanche",
+      "Truc de mauviette",
+      "Chercher des noises",
+      "Tirer correctement",
+      "Connaissances des cavernes"
+    ]
+  },
+  "Haut-Elfe": {
+    "born": [
+      "DÉTECTER",
+      "ÉRUDITION",
+      "RUNES BIZARRES",
+      "TOMBER DANS LES PIÈGES"
+    ],
+    "choices": [
+      "Ambidextrie",
+      "Jonglage et danse",
+      "Chef de groupe",
+      "Nager",
+      "Chevaucher",
+      "Premiers soins",
+      "Connaissances générales",
+      "Tirer correctement",
+      "Héritage Meuldor"
+    ]
+  },
+  "Elfe sylvain": {
+    "born": [
+      "CAMPING FORESTIER",
+      "CHEVAUCHER",
+      "DÉTECTER",
+      "NAÏVETÉ TOUCHANTE",
+      "PREMIERS SOINS",
+      "TIRER CORRECTEMENT",
+      "TOMBER DANS LES PIÈGES"
+    ],
+    "choices": [
+      "Ambidextrie",
+      "Jonglage et danse",
+      "Comprendre les animaux",
+      "Nager",
+      "Connaissances de la nature",
+      "Pister",
+      "Déplacement silencieux",
+      "Tête vide",
+      "Héritage sylvestre des Meuldors"
+    ]
+  },
+  "Elfe noir": {
+    "born": [
+      "AGORAPHOBIE",
+      "DÉPLACEMENT SILENCIEUX",
+      "DÉTECTER",
+      "TIRER CORRECTEMENT"
+    ],
+    "choices": [
+      "Ambidextrie",
+      "Escalader",
+      "Camping sous-terrain",
+      "Méfiance",
+      "Chouraver",
+      "Pister",
+      "Connaissances des cavernes",
+      "Runes bizarres",
+      "Érudition",
+      "Séduction des Drows",
+      "Entretien du matériel"
+    ]
+  },
+  "Semi-homme": {
+    "born": [
+      "APPEL DU TONNEAU",
+      "ATTIRE LES MONSTRES",
+      "CUISTOT",
+      "INSTINCT DE SURVIE",
+      "RÉSISTANCE DES PIEDS-VELUS",
+      "RESSEMBLE À RIEN",
+      "SECOND PETIT-DÉJEUNER"
+    ],
+    "choices": [
+      "Appel des renforts",
+      "Frapper lâchement",
+      "Chouraver",
+      "Instinct du trésor",
+      "Connaissances culinaires",
+      "Mendier et pleurnicher",
+      "Érudition",
+      "Tirer correctement",
+      "Fariboles",
+      "Fouiller dans les poubelles"
+    ]
+  },
+  "Orque": {
+    "born": [
+      "AGORAPHOBIE",
+      "RESSENTI DU SURNATUREL",
+      "APPEL DU SAUVAGE",
+      "SENTIR DES PIEDS",
+      "APPEL DU TONNEAU",
+      "TAQUINERIE DIVINE",
+      "BOURRE-PIF",
+      "TÊTE VIDE",
+      "INSTINCT DE SURVIE"
+    ],
+    "choices": [
+      "Armes de bourrin",
+      "Baragouinage des monstres",
+      "Chercher des noises",
+      "Fouiller dans les poubelles",
+      "Intimider",
+      "Truc de mauviette"
+    ]
+  },
+  "Gobelin": {
+    "born": [
+      "AGORAPHOBIE",
+      "INSTINCT DU TRÉSOR",
+      "APPEL DES RENFORTS",
+      "RESSENTI DU SURNATUREL",
+      "APPEL DU SAUVAGE",
+      "SENTIR DES PIEDS",
+      "ATTIRE LES MONSTRES",
+      "TAQUINERIE DIVINE",
+      "BRIC-À-BRAC",
+      "TÊTE VIDE",
+      "INSTINCT DE SURVIE",
+      "VICIEUX"
+    ],
+    "choices": [
+      "Baragouinage des monstres",
+      "Bricolo du dimanche",
+      "Désamorcer",
+      "Escalader",
+      "Forgeron"
+    ]
+  },
+  "Ogre": {
+    "born": [
+      "APPEL DU VENTRE",
+      "SENTIR DES PIEDS",
+      "APPEL DU TONNEAU",
+      "TÊTE VIDE",
+      "ARMES DE BOURRIN",
+      "VENTRE SUR PATTE",
+      "INSTINCT DE SURVIE",
+      "INTIMIDER",
+      "PUISSANT +"
+    ],
+    "choices": [
+      "Bourre-pif",
+      "Chercher des noises",
+      "Connaissances culinaires",
+      "Fouiller dans les poubelles",
+      "Langues des monstres",
+      "Truc de mauviette"
+    ]
+  },
+  "Demi-Elfe de 2e génération": {
+    "born": [
+      "APPEL DES RENFORTS",
+      "BÂTARD",
+      "DÉTECTER",
+      "CHOURAVER",
+      "MÉFIANCE"
+    ],
+    "choices": [
+      "Bricolo du dimanche",
+      "Mendier et pleurnicher",
+      "Chevaucher",
+      "Nager",
+      "Érudition",
+      "Tirer correctement",
+      "Escalader",
+      "Fouiller dans les poubelles"
+    ]
+  },
+  "Demi-Haut-Elfe": {
+    "born": [
+      "APPEL DES RENFORTS",
+      "BÂTARD",
+      "MÉFIANCE"
+    ],
+    "choices": [
+      "Chef de groupe",
+      "Jonglage et danse",
+      "Chevaucher",
+      "Premiers soins",
+      "Connaissances générales",
+      "Runes bizarres",
+      "Érudition"
+    ]
+  },
+  "Demi-Sylvain": {
+    "born": [
+      "APPEL DES RENFORTS",
+      "BÂTARD",
+      "MÉFIANCE"
+    ],
+    "choices": [
+      "Camping forestier",
+      "Jonglage et danse",
+      "Comprendre les animaux",
+      "Nager",
+      "Connaissances de la nature",
+      "Pister",
+      "Déplacement silencieux",
+      "Tirer correctement"
+    ]
+  },
+  "Demi-Elfe noir": {
+    "born": [
+      "AGORAPHOBIE",
+      "APPEL DES RENFORTS",
+      "BÂTARD",
+      "MÉFIANCE"
+    ],
+    "choices": [
+      "Ambidextrie",
+      "Entretien du matériel",
+      "Chouraver",
+      "Frapper lâchement",
+      "Connaissances des cavernes",
+      "Pister",
+      "Érudition",
+      "Rune bizarre",
+      "Escalader",
+      "Tirer correctement"
+    ]
+  },
+  "Demi-Orque": {
+    "born": [
+      "AGORAPHOBIE",
+      "BÂTARD",
+      "CHERCHER DES NOISES",
+      "INSTINCT DE SURVIE",
+      "SENTIR DES PIEDS",
+      "TÊTE VIDE"
+    ],
+    "choices": [
+      "Armes de bourrin",
+      "Intimider",
+      "Baragouinage des monstres",
+      "Nager",
+      "Bourre-pif",
+      "Tirer correctement",
+      "Escalader",
+      "Truc de mauviette",
+      "Fouiller dans les poubelles"
+    ]
+  },
+  "Demi-Gobelin": {
+    "born": [
+      "AGORAPHOBIE",
+      "MENDIER ET PLEURNICHER",
+      "APPEL DES RENFORTS",
+      "MÉFIANCE",
+      "ATTIRE LES MONSTRES",
+      "SENTIR DES PIEDS",
+      "ERREUR DE LA NATURE",
+      "VICIEUX",
+      "FOUILLER DANS LES POUBELLES",
+      "INSTINCT DE SURVIE"
+    ],
+    "choices": [
+      "Baragouinage des monstres",
+      "Bricolo du dimanche",
+      "Déplacement silencieux",
+      "Désamorcer",
+      "Escalader",
+      "Fariboles",
+      "Frapper lâchement"
+    ]
+  },
+  "Demi-Elfe-Nain": {
+    "born": [
+      "APPEL DES RENFORTS",
+      "APPEL DU TONNEAU",
+      "ERREUR DE LA NATURE",
+      "CHOURAVER",
+      "INSTINCT DU TRÉSOR",
+      "MÉFIANCE",
+      "PÉNIBLE"
+    ],
+    "choices": [
+      "Arnaques et carambouille",
+      "Fariboles",
+      "Bourre pif",
+      "Forgeron",
+      "Bricolo du dimanche",
+      "Jonglage et danse",
+      "Chercher des noises",
+      "Truc de mauviette",
+      "Déplacement silencieux",
+      "Tirer correctement"
+    ]
+  },
+  "Semi-Elfe": {
+    "born": [
+      "APPEL DES RENFORTS",
+      "RÉSISTANCE DES PIEDS-VELUS",
+      "ATTIRE LES MONSTRES",
+      "SECOND PETIT-DÉJEUNER",
+      "BÂTARD",
+      "NAÎVETÉ TOUCHANTE",
+      "CHOURAVER",
+      "CUISTOT",
+      "MÉFIANCE"
+    ],
+    "choices": [
+      "Érudition",
+      "Fariboles",
+      "Frapper lâchement",
+      "Instinct du trésor",
+      "Mendier et pleurnicher",
+      "Tirer correctement"
+    ]
+  },
+  "Demi-Ogre elfique": {
+    "born": [
+      "ARME DE BOURRIN",
+      "CHOURAVER",
+      "APPEL DU TONNEAU",
+      "INSTINCT DE SURVIE",
+      "APPEL DU VENTRE",
+      "VENTRE SUR PATTES",
+      "ERREUR DE LA NATURE",
+      "PUISSANT+",
+      "INTIMIDER"
+    ],
+    "choices": [
+      "Bourre pif",
+      "Chercher des noises",
+      "Jonglage et danse",
+      "Langue des monstres",
+      "Tirer correctement",
+      "Truc de mauviette"
+    ]
+  },
+  "Homme-bête": {
+    "born": [
+      "AGORAPHOBIE",
+      "ERREUR DE LA NATURE",
+      "CHERCHER DES NOISES",
+      "INSTINCT DE SURVIE",
+      "SENTIR DES PIEDS",
+      "TÊTE VIDE",
+      "COMPRENDRE LES ANIMAUX"
+    ],
+    "choices": [
+      "Armes de bourrin",
+      "Intimider",
+      "Baragouinage des monstres",
+      "Nager",
+      "Bourre-pif",
+      "Tirer correctement",
+      "Escalader",
+      "Truc de mauviette",
+      "Fouiller dans les poubelles"
+    ]
+  },
+  "Assassin / Ninja": {
+    "born": [
+      "AMBIDEXTRIE",
+      "DÉPLACEMENT SILENCIEUX",
+      "FRAPPER LÂCHEMENT",
+      "TIRER CORRECTEMENT"
+    ],
+    "choices": [
+      "Chercher des noises",
+      "Escalader",
+      "Chevaucher",
+      "Méfiance",
+      "Entretien du matériel",
+      "Nager",
+      "Érudition",
+      "Ressemble à rien"
+    ]
+  },
+  "Bourgeois / Noble": {
+    "born": [
+      "APPEL DES RENFORTS",
+      "ATTIRE LES MONSTRES",
+      "CHEVAUCHER",
+      "ÉRUDITION",
+      "J’AI LE BRAS LONG",
+      "PÉNIBLE"
+    ],
+    "choices": [
+      "Arnaque et carambouille",
+      "Méfiance",
+      "Chef de groupe",
+      "Nager",
+      "Jonglage et danse",
+      "Runes bizarres"
+    ]
+  },
+  "Guerrier / Gladiateur": {
+    "born": [
+      "ARMES DE BOURRIN",
+      "BOURRE-PIF",
+      "ENTRETIEN DU MATÉRIEL"
+    ],
+    "choices": [
+      "Ambidextrie",
+      "Intimider",
+      "Chercher des noises",
+      "Tirer correctement",
+      "Chevaucher",
+      "Truc de mauviette"
+    ]
+  },
+  "Ingénieur": {
+    "born": [
+      "BRICOLO DU DIMANCHE",
+      "DÉSAMORCER",
+      "FORGERON",
+      "RESSEMBLE A RIEN",
+      "SERRURIER"
+    ],
+    "choices": [
+      "Appel des renforts",
+      "Érudition",
+      "Compagnonnage",
+      "Nager",
+      "Cuistot",
+      "Premiers soins",
+      "Chevaucher",
+      "Tannerie"
+    ]
+  },
+  "Mage / Sorcier": {
+    "born": [
+      "ÉRUDITION",
+      "RÉCUPÉRATION",
+      "RUNES BIZARRES"
+    ],
+    "choices": [
+      "Appel des renforts",
+      "Fariboles",
+      "Chef de groupe",
+      "Langues des monstres",
+      "Chevaucher",
+      "Premiers soins"
+    ]
+  },
+  "Marchand": {
+    "born": [
+      "APPEL DES RENFORTS",
+      "ARNAQUE ET CARAMBOUILLE",
+      "ÉRUDITION",
+      "FARIBOLES",
+      "MÉFIANCE"
+    ],
+    "choices": [
+      "Chef de groupe",
+      "Débiteur de Caddyro",
+      "Chevaucher",
+      "Forgeron",
+      "Compréhension de la pègre",
+      "Instinct du trésor",
+      "Connaissances générales",
+      "Investissement hasardeux",
+      "Contact dans l’import-export",
+      "Runes bizarres",
+      "Cuistot"
+    ]
+  },
+  "Ménestrel": {
+    "born": [
+      "ATTIRE LES MONSTRES",
+      "CHEVAUCHER",
+      "ÉRUDITION",
+      "FARIBOLES",
+      "JONGLAGE ET DANSE",
+      "NAÏVETÉ TOUCHANTE"
+    ],
+    "choices": [
+      "Méfiance",
+      "Runes bizarres",
+      "Mendier et pleurnicher",
+      "Tirer correctement",
+      "Premiers soins"
+    ]
+  },
+  "Paladin": {
+    "born": [
+      "CHEVAUCHER",
+      "ENTRETIEN DU MATERIEL",
+      "INTIMIDER",
+      "RÉCUPÉRATION"
+    ],
+    "choices": [
+      "Armes de bourrin",
+      "Fariboles",
+      "Chercher des noises",
+      "Premiers soins",
+      "Érudition"
+    ]
+  },
+  "Pirate / Flibustier": {
+    "born": [
+      "APPEL DES RENFORTS",
+      "APPEL DU TONNEAU",
+      "ARNAQUE ET CARAMBOUILLE",
+      "CHOURAVER",
+      "ESCALADER",
+      "NAGER",
+      "PIED MARIN"
+    ],
+    "choices": [
+      "Compréhension de la pègre",
+      "Instinct du trésor",
+      "Connaissances aquatiques",
+      "Méfiance",
+      "Détecter",
+      "Mendier et pleurnicher",
+      "Fouiller dans les poubelles",
+      "Tirer correctement"
+    ]
+  },
+  "Prêtre": {
+    "born": [
+      "ÉRUDITION",
+      "MÉFIANCE",
+      "RÉCUPÉRATION"
+    ],
+    "choices": [
+      "Arnaque et carambouille",
+      "Premiers soins",
+      "Chevaucher",
+      "Radin",
+      "Cuistot",
+      "Runes bizarres",
+      "Fariboles"
+    ]
+  },
+  "Ranger": {
+    "born": [
+      "CAMPING TOUT-TERRAIN",
+      "CHEVAUCHER",
+      "DÉPLACEMENT SILENCIEUX",
+      "DÉTECTER",
+      "ENTRETIEN DU MATÉRIEL",
+      "NAGER",
+      "PISTER"
+    ],
+    "choices": [
+      "Ambidextrie",
+      "Escalader",
+      "Chef de groupe",
+      "Méfiance",
+      "Comprendre les animaux",
+      "Premiers soins",
+      "Désamorcer",
+      "Tirer correctement",
+      "Érudition"
+    ]
+  },
+  "Voleur": {
+    "born": [
+      "APPEL DES RENFORTS",
+      "CHOURAVER",
+      "DÉPLACEMENT SILENCIEUX",
+      "DÉTECTER",
+      "SERRURIER"
+    ],
+    "choices": [
+      "Ambidextrie",
+      "Frapper lâchement",
+      "Arnaque et carambouille",
+      "Méfiance",
+      "Compréhension de la pègre",
+      "Ressemble à rien",
+      "Désamorcer",
+      "Tire-laine",
+      "Érudition",
+      "Tirer correctement",
+      "Escalader",
+      "Chevaucher",
+      "Fouiller dans les poubelles"
+    ]
+  },
+  "Traîne-Patins": {
+    "born": [
+      "APPEL DES RENFORTS",
+      "ARNAQUE ET CARAMBOUILLE",
+      "MENDIER ET PLEURNICHER",
+      "ESCALADER",
+      "FOUILLER DANS LES POUBELLES",
+      "RESSEMBLE À RIEN",
+      "INSTINCT DE SURVIE"
+    ],
+    "choices": [
+      "Compréhension de la pègre",
+      "Tirer correctement",
+      "Tire-laine",
+      "Nager",
+      "Bourre-pif",
+      "Cuistot",
+      "Frapper lâchement",
+      "Méfiance"
+    ]
+  },
+  "Humain": {
+    "born": [],
+    "choices": [
+      "Compétences génériques (sauf Appel du sauvage)"
+    ]
+  },
+  "Nain de la mafia": {
+    "born": [
+      "Appel du tonneau",
+      "Instinct du trésor",
+      "Radin",
+      "Ambidextrie",
+      "Bourre-pif",
+      "Chouraver",
+      "Ressemble à rien",
+      "Roublard",
+      "Bond d’attaque"
+    ],
+    "choices": [
+      "Serrurier",
+      "Appel des renforts",
+      "Pister",
+      "Détecter",
+      "Arnaque et carambouille",
+      "Bricolo du dimanche",
+      "Fariboles",
+      "Méfiance",
+      "Tirer correctement",
+      "Désamorcer"
+    ]
+  },
+  "Amazone syldérienne": {
+    "born": [
+      "Attire les monstres",
+      "Chercher des noises",
+      "Bourre-pif",
+      "Tête vide",
+      "Chevaucher",
+      "Truc de mauviette",
+      "Armes longues",
+      "Survivante",
+      "Beauté féroce",
+      "Ignorante"
+    ],
+    "choices": [
+      "Escalader",
+      "Intimider",
+      "Nager",
+      "Pister",
+      "Tirer correctement",
+      "Instinct de survie"
+    ]
+  },
+  "Chamane de jungle": {
+    "born": [
+      "Agoraphobie",
+      "Bourre-pif",
+      "Déplacement silencieux",
+      "Escalader",
+      "Nager",
+      "Pister",
+      "Premiers soins",
+      "Tirer correctement",
+      "Instinct de survie",
+      "Sauvageon",
+      "Enfer vert"
+    ],
+    "choices": [
+      "Armes de bourrin",
+      "Appel des renforts",
+      "Chercher des noises",
+      "Chevaucher",
+      "Comprendre les animaux",
+      "Détecter",
+      "Intimider"
+    ]
+  },
+  "Semi-homme de la Loi": {
+    "born": [
+      "Appel du tonneau",
+      "Attire les monstres",
+      "Cuistot",
+      "Érudition",
+      "Instinct de survie",
+      "La loi c’est moi",
+      "Pénible"
+    ],
+    "choices": [
+      "Appel des renforts",
+      "Arnaques et carambouilles",
+      "Chef de groupe",
+      "Chevaucher",
+      "Fariboles",
+      "Méfiance",
+      "Nager",
+      "T.A.F."
+    ]
+  },
+  "Mage culinaire hobbit": {
+    "born": [
+      "Appel du tonneau",
+      "Attire les monstres",
+      "Cuistot",
+      "Érudition de cuisine",
+      "Instinct de survie",
+      "Sieste du cuistot",
+      "Ressemble à rien"
+    ],
+    "choices": [
+      "Appel des renforts",
+      "Chef de groupe",
+      "Chouraver",
+      "Fariboles",
+      "Fouiller dans les poubelles",
+      "Instinct du trésor",
+      "Langues des monstres",
+      "Mendier et pleurnicher",
+      "Runes bizarres de ma grand-mère"
+    ]
+  },
+  "Paladin semi-homme de Picrate": {
+    "born": [
+      "Appel du tonneau",
+      "Attire les monstres",
+      "Bourre-pif des tavernes",
+      "Cuistot",
+      "Instinct de survie",
+      "Intimider",
+      "Ressemble à rien",
+      "Cuvée à la cave"
+    ],
+    "choices": [
+      "Appel des renforts",
+      "Chercher des noises",
+      "Chevaucher",
+      "Détecter",
+      "Érudition",
+      "Fariboles",
+      "Instinct du trésor",
+      "Nager",
+      "Premiers soins",
+      "Tirer correctement",
+      "Trucs et astuces de mon beau-père"
+    ]
+  },
+  "Paladin semi-homme de Jord’hun": {
+    "born": [
+      "Appel du tonneau",
+      "Attire les monstres",
+      "Chevaucher",
+      "Cuistot",
+      "Fumeur d’herbe à pipe",
+      "Instinct de survie",
+      "Intimider",
+      "Ressemble à rien",
+      "Sieste du jardin"
+    ],
+    "choices": [
+      "Appel des renforts",
+      "Arme de bourrin hobbite",
+      "Chercher des noises",
+      "Détecter",
+      "Érudition",
+      "Fariboles",
+      "Instinct du trésor",
+      "Nager",
+      "Premiers soins",
+      "Tirer correctement",
+      "Trucs et astuces de mon grand-père"
+    ]
+  },
+  "Bourreau": {
+    "born": [
+      "Armes de bourrin",
+      "Appel du tonneau",
+      "Frapper lâchement",
+      "Intimider",
+      "Langue des monstres",
+      "Méfiance",
+      "Tortionnaire",
+      "Poigne de fer",
+      "Infâme"
+    ],
+    "choices": [
+      "Détecter",
+      "Bricolo du dimanche",
+      "Forgeron",
+      "Tirer correctement",
+      "Nager",
+      "Escalader",
+      "Chevaucher",
+      "Chercher des noises",
+      "Premiers soins",
+      "Truc de mauviette"
+    ]
+  },
+  "Sbire": {
+    "born": [
+      "Appel des renforts",
+      "Frapper lâchement",
+      "Langue des monstres",
+      "Fariboles",
+      "Méfiance",
+      "Mendier et pleurnicher",
+      "Ressemble à rien",
+      "Fouiller dans les poubelles",
+      "Misérable",
+      "Survivaliste",
+      "Pleutre"
+    ],
+    "choices": [
+      "Toute compétence optionnelle sauf Appel du sauvage, Chef de groupe et Chercher des noises"
+    ]
+  },
+  "Gnome des forêts du Nord": {
+    "born": [
+      "AGILE",
+      "AMBIDEXTRIE",
+      "APPEL DES RENFORTS",
+      "CHEVAUCHER",
+      "CHOURAVER",
+      "DÉPLACEMENT SILENCIEUX",
+      "INSTINCT DU TRÉSOR",
+      "SUPER ESQUIVE"
+    ],
+    "choices": [
+      "Comprendre les animaux",
+      "Connaissances de la nature",
+      "Désamorcer",
+      "Détecter",
+      "Escalader",
+      "Jonglage et danse",
+      "Mendier et pleurnicher",
+      "Nager",
+      "Serrurier",
+      "Tirer correctement"
+    ]
+  }
+}
