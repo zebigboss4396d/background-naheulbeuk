@@ -107,3 +107,7 @@ Le bouton « Faire croire au MJ que j’ai super bien bossé » copie une second
 Les secrets sont exclus de cette demande par défaut. Une option propre au récit permet de les inclure ; les notes et limites personnelles au MJ restent exclues. Ce choix est indépendant de l’option des exports PDF/texte. Les images doivent être jointes manuellement à l’IA choisie. Le site prépare les demandes ; il ne génère pas lui-même un récit ou des images. Le PDF récapitulatif du site reste disponible séparément.
 
 Le nouveau module `finale.js` doit être envoyé avec `index.html`, `data.js`, `app.js`, `portrait.js`, `illustrations.js`, `style.css` et les autres fichiers de l’archive. Les anciennes réponses sont conservées ; une ancienne sauvegarde ouverte sur « Fiche & portrait » est redirigée vers « La fiche terminée ».
+
+## Sobriété du récit illustré — 22 octobre 2026
+
+La demande de récit illustré impose désormais une ou deux illustrations majeures maximum pour l’ensemble du PDF, en comptant le portrait s’il est utilisé comme illustration principale. Le reste de l’habillage est limité à de légers décors en filigrane dans les marges et les espaces libres ; les zones de texte restent claires et unies. Le mode d’emploi du bouton a été ajusté en conséquence. Cette correction concerne la demande copiée pour l’IA, et non le PDF récapitulatif produit directement par le site.
